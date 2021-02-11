@@ -2,7 +2,7 @@
 const fs = require('fs');
 const pigpio = require('pigpio');
 // The Raspberry Pi's GPIO pin number linked to the 'data' pin of the RF emitter		
-const outPin = 4;
+const outPin = 21;
 const output = new pigpio.Gpio(outPin, {mode: pigpio.Gpio.OUTPUT});
 
 /**
